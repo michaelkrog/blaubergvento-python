@@ -6,7 +6,7 @@ The Blauberg Vento is a one room ventilationsystem with a heat exchanger.
 This module has roots in the [dukaonesdk](https://github.com/dingusdk/dukaonesdk/blob/master/readme.md) but has been rewritten from scratch in order to better separate 
 responsibilities into different classes, while still being able to reuse shared logic.
 
-The primary goal for this module is to create a Javascript client that makes communicating with Blauberg 
+The primary goal for this module is to create a Python client that makes communicating with Blauberg 
 Vento(and its derivatives) a simple task. 
 
 ## Installation
