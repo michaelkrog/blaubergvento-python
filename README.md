@@ -68,4 +68,3 @@ if __name__ == "__main__":
 ```
 
 [You can see the documentation from Blauberg here](https://blaubergventilatoren.de/uploads/download/b133_4_1en_01preview.pdf)
-
