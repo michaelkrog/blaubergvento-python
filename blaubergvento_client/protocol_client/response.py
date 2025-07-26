@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from src.blauberg_vento.protocol_client.packet import Packet
+from blaubergvento_client.protocol_client.packet import Packet
 
 @dataclass
 class Response:

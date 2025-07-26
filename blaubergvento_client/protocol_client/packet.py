@@ -1,7 +1,7 @@
 from typing import List, Tuple
-from src.blauberg_vento.protocol_client.data_entry import DataEntry
-from src.blauberg_vento.protocol_client.function_type import FunctionType
-from src.blauberg_vento.protocol_client.parameter import Parameter, get_size
+from blaubergvento_client.protocol_client.data_entry import DataEntry
+from blaubergvento_client.protocol_client.function_type import FunctionType
+from blaubergvento_client.protocol_client.parameter import Parameter, get_size
 
 MAX_PACKET_SIZE = 256
 HEADER = [0xFD, 0xFD]
