@@ -1,6 +1,6 @@
 [metadata]
 name = blaubergvento_client
-version = attr: blaubergvento_client.VERSION
+version = 0.0.1
 author = Michael Krog
 author_email = mic@apaq.dk
 description = A Python Client for Blauberg Vento Fans (and oems like Duka S6)
