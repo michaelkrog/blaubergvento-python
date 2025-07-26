@@ -1,7 +1,7 @@
 import asyncio
 
-from src.blauberg_vento.client.client import Client
-from src.blauberg_vento.client.speed import Speed
+from blaubergvento_client.client.client import Client
+from blaubergvento_client.client.speed import Speed
 
 
 async def main():

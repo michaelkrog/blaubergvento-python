@@ -1,11 +1,11 @@
 from typing import Optional, Dict
 
-from src.blauberg_vento.client.device import Device
-from src.blauberg_vento.protocol_client.client import ProtocolClient
-from src.blauberg_vento.protocol_client.data_entry import DataEntry
-from src.blauberg_vento.protocol_client.function_type import FunctionType
-from src.blauberg_vento.protocol_client.packet import Packet
-from src.blauberg_vento.protocol_client.parameter import Parameter
+from blaubergvento_client.client.device import Device
+from blaubergvento_client.protocol_client.client import ProtocolClient
+from blaubergvento_client.protocol_client.data_entry import DataEntry
+from blaubergvento_client.protocol_client.function_type import FunctionType
+from blaubergvento_client.protocol_client.packet import Packet
+from blaubergvento_client.protocol_client.parameter import Parameter
 
 
 class Client:

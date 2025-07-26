@@ -1,10 +1,10 @@
 from datetime import datetime
 from typing import Optional
 
-from src.blauberg_vento.protocol_client.data_entry import DataEntry
-from src.blauberg_vento.protocol_client.function_type import FunctionType
-from src.blauberg_vento.protocol_client.packet import Packet
-from src.blauberg_vento.protocol_client.parameter import Parameter
+from blaubergvento_client.protocol_client.data_entry import DataEntry
+from blaubergvento_client.protocol_client.function_type import FunctionType
+from blaubergvento_client.protocol_client.packet import Packet
+from blaubergvento_client.protocol_client.parameter import Parameter
 from mode import Mode
 from speed import Speed
 

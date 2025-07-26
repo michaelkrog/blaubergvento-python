@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import Optional
-from src.blauberg_vento.protocol_client.parameter import Parameter  # Assuming you saved the previous enum as parameter.py
+from blaubergvento_client.protocol_client.parameter import Parameter  # Assuming you saved the previous enum as parameter.py
 
 
 @dataclass

@@ -1,15 +1,14 @@
-import asyncio
 import socket
 import time
 from dataclasses import dataclass
 from datetime import datetime
 from typing import List, Optional
 
-from src.blauberg_vento.protocol_client.packet import Packet
-from src.blauberg_vento.protocol_client.function_type import FunctionType
-from src.blauberg_vento.protocol_client.data_entry import DataEntry
-from src.blauberg_vento.protocol_client.parameter import Parameter
-from src.blauberg_vento.protocol_client.response import Response
+from blaubergvento_client.protocol_client.packet import Packet
+from blaubergvento_client.protocol_client.function_type import FunctionType
+from blaubergvento_client.protocol_client.data_entry import DataEntry
+from blaubergvento_client.protocol_client.parameter import Parameter
+from blaubergvento_client.protocol_client.response import Response
 
 TIME_OUT = 1.0
 
