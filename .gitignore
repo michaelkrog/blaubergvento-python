@@ -3,3 +3,6 @@
 
 # Build
 blaubergvento_client.egg-info
+**/__pycache__
+dist
+build
