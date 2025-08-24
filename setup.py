@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name="blaubergvento_client",
-    version="1.0.0",
+    version="0.0.1",
     description="Client for Blauberg Vento and derived ventilators",
     long_description=(
         "This is a Python module for communicating with a Blauberg Vento (and OEMS like Duka One S6w). The Blauberg Vento is a one room ventilationsystem with a heat exchanger."
@@ -15,5 +15,5 @@ setup(
     author="Michael Krog",
     url="https://github.com/michaelkrog/blaubergvento-python",
     packages=["blaubergvento_client"],
-    license="GPL-3.0",
+    license="MIT",
 )

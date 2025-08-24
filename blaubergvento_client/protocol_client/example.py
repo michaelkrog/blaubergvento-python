@@ -1,5 +1,5 @@
 import asyncio
-from client import ProtocolClient
+from .client import ProtocolClient
 
 async def main():
     print("Searching for Blauberg Vento devices on the network...")
